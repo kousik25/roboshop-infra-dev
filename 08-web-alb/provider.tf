@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket         = "daws76s-dev"
-    key            = "sg"
+    key            = "web-alb"
     region         = "us-east-1"
     dynamodb_table = "daws76s-locking-dev"
   }
